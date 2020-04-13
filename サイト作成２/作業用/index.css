@@ -1,0 +1,113 @@
+        /*共通開始*/
+
+@media(max-width: 600px){
+html{
+    font-size:100%;
+}
+@charset"UTF-8";
+/*共通・ロゴ【開始】*/
+img.logo{
+    width: 200px;
+    height: auto;
+    margin-top:14px;
+}
+h1.logo{
+    text-align:center;
+    height:50px
+}
+/*共通・ロゴ【終了】*/
+    
+/* 共通・ナビ【開始】 */
+nav{
+    color:black;
+    text-align: center;
+    margin:20px 0;
+    font-size:.9em;
+}
+nav ul{
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:6px;
+    list-style-type:none;
+}
+nav a{
+    display:block;
+    border-radius:4px;
+    padding:12px 24px;
+    color:black;
+    text-decoration:none;
+}
+/* 共通・ナビ【開始】 */
+
+/* 共通・footer【開始】 */
+footer.copyright {
+    background-color: #220000;
+    padding-top:15px;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+}
+/* 共通・footer【終了】 */
+        /*共通ここまで*/
+
+        /* index【開始】 */
+/* index・背景【開始】 */
+.indexbackground{
+    display: block;
+    max-height:400px;
+}
+#home{
+    background:url(img/main-bg.jpg)center top /cover no-repeat fixed;
+    min-height:100vh;
+}
+/* index・背景【終了】 */
+
+header.index-wrapper{}
+
+/* index・"Day" */
+h2.index{
+    margin:20% 0 10% 0;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.65em;
+    width:100%;
+    text-align: center;
+}
+
+/* index・ギフテッドな・・・リフレッシュ */
+section.iyasare{
+    margin:10% 0 10% 0;
+    text-align:left;
+    width:100%;
+    line-height: 1.5em;
+}
+
+/* index・ボタン【開始】 */
+section.index-button{
+    text-align: center;
+}
+.button-text{
+    width:170px;
+    background-color: deepskyblue;
+    border: solid 2px deepskyblue;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding:10px;
+    line-height:2em;
+}
+a.indexbutton{
+text-decoration: none;
+width:100%;
+}
+/* index・ボタン【終了】 */
+        /* index【終了】 */
+
+
+}/* index メディアクエリー【終了】 */
+
+
+

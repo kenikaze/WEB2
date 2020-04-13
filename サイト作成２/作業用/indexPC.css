@@ -1,0 +1,138 @@
+        /*共通開始*/
+
+@media(min-width: 600px){
+@charset"UTF-8";
+html{
+    font-size:100%;
+}
+    
+/*共通・ロゴ&ナビ・ラッパー【開始】*/
+.all-header{
+    display:flex;
+    justify-content: space-between;
+    }
+.all-wrapper{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 4%;
+}
+/*共通・ロゴ&ナビ・ラッパー【終了】*/
+    
+/*共通・ロゴ【開始】*/
+img.logo{
+    width: 300px;
+    height: auto;
+    margin-top: 14px;
+}
+h1.logo{
+    text-align:center;
+    height:50px
+}
+/*共通・ロゴ【終了】*/
+    
+/* 共通・ナビ【開始】 */
+nav{
+    color:black;
+    text-align: center;
+    margin:26px 0 20px 0;
+    font-size:1.2em;
+}
+nav ul{
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:6px;
+    list-style-type:none;
+}
+nav a{
+    display:block;
+    border-radius:4px;
+    padding:12px 24px;
+    color:black;
+    text-decoration:none;
+}
+nav a:hover{
+    color: #0bd;
+}
+/* 共通・ナビ【終了】 */
+
+
+
+/* 共通・footer【開始】 */
+footer.copyright {
+    background-color: #220000;
+    padding-top:15px;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+}
+/* 共通・footer【終了】 */
+    
+        /*共通【終了】*/
+
+        /* index【開始】 */
+/* index・背景【開始】 */
+body.indexbackground{
+    display: block;
+    max-height:400px;
+}
+#home{
+    background:url(img/main-bg.jpg)top center /cover no-repeat fixed;
+    height:100vh;
+    max-width: 100%;
+}
+/* index・背景【終了】 */
+    
+/* index・コンテンツラッパー【開始】 */
+header.index-wrapper{
+    text-align:center;
+    margin-top:10%;
+}
+/* index・コンテンツラッパー【終了】 */
+    
+/* index・"makeyourDay" */
+h2.index{
+    font-family: 'Philosopher', sans-serif;
+    font-weight:normal;
+    font-size: 5rem;
+}
+
+/* index・ギフテッドな・・・リフレッシュ */
+section.iyasare{
+    max-width: 100%;
+    padding: 0 10%;
+    line-height: 1.5em;
+    font-size:1.375rem;
+    margin-top:60px;
+}
+
+/* index・ボタン【開始】 */
+section.index-button{
+    margin-top:60px;
+}
+.button-text{
+    width:220px;
+    background-color: deepskyblue;
+    border: solid 2px deepskyblue;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding:10px;
+    line-height:2.3em;
+    font-size: 1.1em;
+}
+a.indexbutton{
+    text-decoration: none;
+    width:100%;
+}
+/* index・ボタン【終了】 */
+        /* index【終了】 */
+
+
+}/* index メディアクエリー【終了】 */
+
+
+

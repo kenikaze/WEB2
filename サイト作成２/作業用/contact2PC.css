@@ -1,0 +1,329 @@
+@media (min-width: 600px){
+@charset"UTF-8";
+/* contact背景【開始】 */
+#contact-bg{
+    background: url(img/contact-bg.jpg) center top/ cover no-repeat ;
+    opacity: .7;
+    min-width: 100%;
+    height:80vh;
+    overflow:hidden;
+}
+/* contact背景【終了】 */
+
+/* contactCONTACTタイトル【開始】 */
+.form-contact{
+    width:1300px;
+    margin: auto;
+    padding: 0 4%;
+}
+.wrapper-form-contact{
+
+}
+h2.contact{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.5em;
+    margin:15px 0;
+}
+/* contactCONTACTタイトル【終了】 */
+
+/* contactフォーム【開始】 */
+/* contactフォーム名前、アドレス、メッセ【開始】 */
+label{
+    display:block;
+    font-size:1.3rem;
+    margin: 10px 0;
+}
+input[type="name"]
+{
+    text-align:left;
+    background: rgba(255, 255, 255, .5);
+    line-height:2.6em;
+    border: white solid 1.5px;
+    border-radius: 5px;
+    width:240px;
+}
+
+textarea.row-2
+{
+    text-align:left;
+    background: rgba(255, 255, 255, .5);
+    line-height:2.6em;
+    border: white solid 1.5px;
+    border-radius: 5px;
+    width:240px;
+    height:3em;
+}
+textarea.row-5
+{
+    text-align:left;
+    background: rgba(255, 255, 255, .5);
+    line-height:2.6em;
+    border: white solid 1.5px;
+    border-radius: 5px;
+    width:480px;
+}
+/* contactフォーム名前、アドレス、メッセ【終了】 */
+
+/* contact・フォームメール */
+.row-2{
+    height: calc(1.3em *2);
+    line-height:1.3em;
+}
+/* contact・フォームメッセージ */
+.row-5{
+    height: calc(1.3em *5);
+    line-height:1.3em;
+}
+/* contact・フォーム送信 */
+input[type="submit"]{
+    border-radius: 5px;
+    line-height:2.5;
+    background-color: deepskyblue;
+    color: #fff;
+    border-style: none;
+    text-align: center;
+    width:80px;
+    cursor:pointer;
+    margin:10px 0;
+}
+/* contact・フォーム【終了】 */
+
+
+/* contact・マップ【開始】 */
+.contact-mfty-wrapper{
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+    padding:0 4%;
+    max-width:1300px;
+    max-height: 420px;
+}
+
+.mapaddress{
+    width:22%;
+    height:300px;
+}
+    
+/* contact・マップサブタイトル */
+h3.maptitle{
+    margin:15px 0 15px 0;
+    border-bottom:#00CCFF solid 1.60px;
+    padding:5px 15px;
+    width:320px;
+    font-weight:normal;
+}
+/* contact・マップアドレス */
+div.address{
+    line-height:1.5em;
+    padding-left:15px;
+}
+/* contact・マップグーグルマップ埋め込み 【開始】*/
+section.map{
+    display:none;
+}
+section.mapwrapper{
+    max-width:1300px;
+}
+section.map-desktop{
+    position:relative;
+    width:60%;
+    padding-top: 50%; /* = height ÷ width × 100 */
+    margin:25px 0;
+ 
+}
+section.map-desktop iframe{
+    position:absolute;
+    top:0;
+    right:0;
+    width: 100%;
+    height:63%;
+}
+
+/* contact・マップグーグルマップ埋め込み 【終了】*/
+/* contact・マップ【終了】 */
+
+/* contact・フェースブック＆ツイッター＆ユーチューブ共通【開始】 */
+aside.asidecontact{
+    background-color:#FFFAFA;
+    margin:50px 0;
+    max-height:2000px;
+}
+section.sectioncontact{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    max-width:1300px;
+    padding:0 4%;
+    margin:auto;
+    height:auto;
+}
+.fty-wrapper{
+    height:100%;
+}
+.facebook-wrapper,
+.twitter-wrapper{
+    width:270px;
+    height:270px;
+}
+
+.fty-embedded{
+    max-width: 100%;
+    padding:0 10px;
+}
+.fty-subtitle{
+    margin:5px 0 20px 0;
+    border-bottom:#00CCFF solid 1.60px;
+    padding:5px 0;
+    padding-left:10px;
+    font-size:1.25em;
+}
+/* contact・フェースブック＆ツイッター＆ユーチューブ共通【終了】 */
+
+/* contact・フェースブック【開始】 */
+.facebook{
+    display:none;
+}
+.facecook-DESKTOP{
+    width:270px;
+    height:270px;
+
+}
+.facecook-DESKTOP iframe{
+    width:100%;
+    height:100%;
+}
+/* contact・フェースブック【終了】 */
+
+    
+    
+/* contact・ツイッター【開始】 */
+.twitter{
+    display:none;
+}
+.twitter-DESKTOP{
+    width:200px;
+    height:200px;
+
+}
+.twitter iframe{
+    width:100%;
+    height:100%;
+    padding:0 15px;
+}
+/* contact・ツイッター【】 */
+    
+/* contact・ユーチューブ【開始】 */
+.youtube{
+    display:none;
+}
+.youtube-desktop {
+    position: relative;
+    padding-top: 56.25%;
+    width:270px;
+    height:270px;
+}
+
+.youtube-desktop iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%; !important;
+    height:100%; !important;
+    padding: 0 15px;
+}
+/* contact・ユーチューブ【終了】 */
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+
+section.map-desktop{
+    position:relative;
+    max-width:100%;
+    padding-top: 50%; /* = height ÷ width × 100 */
+    margin:15px 0;
+    width:40%;
+}
+section.map-desktop iframe{
+    position:absolute;
+    top:0;
+    right:0;
+    width: 100%;
+    height:100%;
+}
+    
+.facebook-wrapper,
+.twitter-wrapper,{
+    width:300px;
+    height:300px;
+}
+.facecook-DESKTOP,
+.twitter-DESKTOP,
+.youtube-desktop{
+    width:210px;
+    height:210px;
+}
+
+}
+
+@media (min-width: 901px) and (max-width: 1300px){
+
+section.map-desktop{
+    position:relative;
+    max-width:100%;
+    padding-top: 50%; /* = height ÷ width × 100 */
+    margin:15px 0;
+    width:60%;
+}
+section.map-desktop iframe{
+    position:absolute;
+    top:0;
+    right:0;
+    width: 100%;
+    height:70%;
+}
+    
+.facebook-wrapper,
+.twitter-wrapper,{
+    width:270px;
+    height:270px;
+}
+.facecook-DESKTOP,
+.twitter-DESKTOP,
+.youtube-desktop{
+    width:270px;
+    height:270px;
+}
+
+}
+
+@media (min-width: 1301px){
+    
+section.map-desktop{
+    position:relative;
+    max-width:100%;
+    padding-top: 50%; /* = height ÷ width × 100 */
+    margin:15px 0;
+    width:740px;
+}
+section.map-desktop iframe{
+    position:absolute;
+    top:0;
+    right:0;
+    width: 100%;
+    height:70%;
+}
+    
+.facebook-wrapper,
+.twitter-wrapper{
+    width:300px;
+    height:300px;
+}
+.facecook-DESKTOP,
+.twitter-DESKTOP,
+.youtube-desktop{
+    width:300px;
+    height:300px;
+}
+
+    
+}

@@ -1,0 +1,109 @@
+
+@media(max-width: 600px){
+@charset"UTF-8";
+#borderbox{
+    box-sizing: border-box;
+    margin:0 15px;
+}
+
+
+/* menu【開始】 */
+
+/* menu・背景【開始】 */
+#menu{
+    background: gray url(img/menu-bg.jpg)top center /cover no-repeat;
+    background-blend-mode: lighten;
+    height:100vh;
+}
+.menu-background{
+    flex-direction:column;
+    margin: 0 0 10px 0;
+}
+/* menu【終了】 */
+
+/* menu・タイトル【開始】 */
+h2.menu{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    font-size: 2.50em;
+    margin-top:75px;
+}
+/* menuタイトル【終了】 */
+
+/* menu・脳に刺激【開始】 */
+p.menutext2{
+    margin: 10% 0 0 0;
+}
+
+/* menu・写真コラム【開始】 */
+section.wrapper-grid{
+    width:100%;
+    height:auto;
+    margin:50px 0;
+}
+p.img-title{
+    margin:10px 0;
+}
+.menu-img{
+    margin:10px 0 0 0;
+    width:100%;
+    height:auto;
+}
+/* menu・写真コラム【終了】 */
+/* menu【終了】 */
+}
+
+
+@media(max-width: 600px){
+@charset"UTF-8";
+#borderbox{
+    box-sizing: border-box;
+    margin:0 15px;
+}
+
+
+/* menu【開始】 */
+
+/* menu・背景【開始】 */
+#menu{
+    background: gray url(img/menu-bg.jpg)top center /cover no-repeat;
+    background-blend-mode: lighten;
+    height:100vh;
+}
+.menu-background{
+    flex-direction:column;
+    margin: 0 0 10px 0;
+}
+/* menu【終了】 */
+
+/* menu・タイトル【開始】 */
+h2.menu{
+    font-family: 'Philosopher', sans-serif;
+    text-align:center;
+    font-size: 2.50em;
+    margin-top:75px;
+}
+/* menuタイトル【終了】 */
+
+/* menu・脳に刺激【開始】 */
+p.menutext2{
+    margin: 10% 0 0 0;
+}
+
+/* menu・写真コラム【開始】 */
+section.wrapper-grid{
+    width:100%;
+    height:auto;
+    margin:50px 0;
+}
+p.img-title{
+    margin:10px 0;
+}
+.menu-img{
+    margin:10px 0 0 0;
+    width:100%;
+    height:auto;
+}
+/* menu・写真コラム【終了】 */
+/* menu【終了】 */
+}
